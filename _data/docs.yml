@@ -1,0 +1,20 @@
+- title: Quick Start
+  docs:
+    - environment-setup
+    - getting-started
+    - cli-usage
+
+- title: CI Service
+  docs:
+    - master-deployment
+    - slave-deployment
+    - using-with-other
+
+- title: About
+  links:
+    -
+      - FAQ
+      - https://github.com/alibaba/macaca/wiki/FAQ
+    -
+      - Change Log
+      - https://github.com/alibaba/macaca/wiki/Changelog
