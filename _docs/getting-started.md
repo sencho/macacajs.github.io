@@ -61,7 +61,7 @@ describe('macaca test sample', function() {
 
 All the implementation are conformed to [Webdriver Spec](https://w3c.github.io/webdriver/webdriver-spec.html), API doc can be found in [link](//macacajs.github.io/macaca-wd/docs).
 
-## Prepare Application
+## Prepare application
 
 iOS: An valid iOS application package suffixed with `.app`.
 

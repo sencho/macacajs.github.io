@@ -10,7 +10,7 @@ $ npm i -g macaca-cli
 
 ## Quick Start
 
-### Run Test
+### Run test tasks
 
 ```shell
 # run test in current cwd
@@ -39,7 +39,7 @@ $ macaca server -p 3456
 $ macaca server -p 3456 &
 ```
 
-### Environment Doctor
+### Environment doctor
 
 ```shell
 $ macaca doctor
@@ -60,4 +60,4 @@ $ macaca run -h
 $ macaca doctor -h
 ```
 
-That's all, enjoy it!
+#### That's all, enjoy it!
