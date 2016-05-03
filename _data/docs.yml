@@ -8,7 +8,7 @@
   docs:
     - master-deployment
     - slave-deployment
-    - using-with-other
+    - using-with-ci
 
 - title: About
   links:

@@ -73,7 +73,7 @@ Android: An valid Android application package suffixed with `.apk`.
 $ macaca run --verbose
 ```
 
-Further options could be found in [macaca-cli-command](./guide.html#/client-usage).
+Further options could be found in [macaca-cli-command](./cli-usage.html).
 
 ## Examples
 
