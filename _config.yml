@@ -1,0 +1,19 @@
+name: Macaca
+slogen: Solution for Automation Test with Ease
+
+collections:
+  docs:
+    output: true
+    permalink: /macaca/:path.html
+
+defaults:
+  -
+    scope:
+      path: "_docs"
+    values:
+      layout: docs
+
+timezone: Asia/Shanghai
+
+# gems:
+#   - jemoji

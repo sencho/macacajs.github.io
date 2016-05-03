@@ -1,14 +1,3 @@
-.DS_Store
-node_modules
-npm-debug.log
-*.swp
-*.swo
-*.swn
-.sw*
-*.out
-.idea/*
-Thumbs.db
-coverage/
-.project
-build/
-*.un~
+_site/
+.sass-cache/
+.ruby-version

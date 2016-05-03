@@ -1,0 +1,28 @@
+<header>
+  <div class="container">
+    <a href="/macaca/" class="brand">{{ site.name }}</a>
+    <nav>
+      <a href="/macaca/"{% if page.path == "index.html" %} class="current"{% endif %}>
+        <paper-ripple class="peach"></paper-ripple>
+        Home
+      </a>
+      {% assign _ = page.path | split: "/" | first %}
+      <a href="/macaca/environment-setup.html"{% if _ == "_docs" and page.path != "_docs/support.md" %} class="current"{% endif %}>
+        <paper-ripple class="peach"></paper-ripple>
+        Guide
+      </a>
+      <a href="/macaca-wd/docs/" target="_blank">
+        <paper-ripple class="peach"></paper-ripple>
+        API
+      </a>
+      <a href="/macaca/support.html"{% if page.path == "_docs/support.md" %} class="current"{% endif %}>
+        <paper-ripple class="peach"></paper-ripple>
+        Support
+      </a>
+      <a href="https://github.com/macacajs" target="_blank">
+        <paper-ripple class="peach"></paper-ripple>
+        GitHub
+      </a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,38 @@
+article {
+  min-height: 666px;
+  padding: 50px 0 100px;
+
+  aside + & {
+    margin-left: 250px;
+  }
+
+  h1 {
+    margin: 0;
+
+    + h2 {
+      margin-top: 1em;
+    }
+  }
+
+  h2 {
+    margin-top: 2em;
+    margin-bottom: .5em;
+  }
+
+  ul, ol {
+    margin-left: 1.2em;
+  }
+
+  h3, ul, ol, p, pre {
+    margin-top: 1em;
+  }
+
+  p + p,
+  li + li {
+    margin-top: .5em;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

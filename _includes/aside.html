@@ -1,0 +1,16 @@
+<aside>
+  {% for section in site.data.docs %}
+  <h4>{{ section.title }}</h4>
+  <ul>
+    {% for item in section.docs %}
+      {% assign item_path = item | prepend: "_docs/" | append: ".md" %}
+      {% assign p = site.docs | where: "path",item_path | first %}
+      <li{% if item_path == page.path %} class="current"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% endfor %}
+
+    {% for item in section.links %}
+      <li><a href="{{ item[1] }}" target="_blank">{{ item[0] }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</aside>

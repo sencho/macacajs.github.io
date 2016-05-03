@@ -1,0 +1,24 @@
+aside {
+  float: left;
+  padding-top: 60px;
+
+  h4 {
+    margin-bottom: .5em;
+    font-size: 20px;
+  }
+
+  ul {
+    padding-bottom: 1.5em;
+    list-style: none;
+  }
+
+  li.current {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      left: -1.5em;
+      content: '\261E';
+    }
+  }
+}
