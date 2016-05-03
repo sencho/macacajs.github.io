@@ -27,7 +27,7 @@ The [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) interface p
 The snippet below is the recommended way to write your testcase.
 
 ```js
-describe('macaca test sample', function() {
+describe('Macaca test sample', function() {
 
   ...
 

@@ -4,9 +4,9 @@ title: Need help?
 
 ## GitHub
 
-Because we have lots of modules we use the main repo ([macaca](https://github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. Using [GitHub issues](https://github.com/alibaba/macaca/issues).
+Because we have lots of modules we use the main repo ([Macaca](https://github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. Using [GitHub issues](https://github.com/alibaba/macaca/issues).
 
-Packages can be found in [macaca group](https://github.com/macacajs) and [reliable group](https://github.com/reliablejs).
+Packages can be found in [Macaca group](https://github.com/macacajs) and [reliable group](https://github.com/reliablejs).
 
 Team members can be found in [group](https://github.com/orgs/macacajs/people).
 
@@ -18,7 +18,7 @@ Team members can be found in [group](https://github.com/orgs/macacajs/people).
 
 ## Stack Overflow
 
-Use Stack Overflow to ask questions. Read through the [existing questions](http://stackoverflow.com/questions/tagged/macaca) tagged with `macaca` or [ask your own](http://stackoverflow.com/questions/ask)!
+Use Stack Overflow to ask questions. Read through the [existing questions](http://stackoverflow.com/questions/tagged/macaca) tagged with `Macaca` or [ask your own](http://stackoverflow.com/questions/ask)!
 
 ## Community
 

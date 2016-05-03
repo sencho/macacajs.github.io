@@ -1,5 +1,5 @@
 ```js
-describe('macaca mobile sample', function() {
+describe('Macaca mobile sample', function() {
   this.timeout(5 * 60 * 1000);
 
   var driver = wd.initPromiseChain();

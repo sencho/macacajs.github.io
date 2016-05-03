@@ -52,4 +52,4 @@ $ macaca doctor
 
 ## Try it now!
 
-Are you ready to enter into the macaca world? [Let's have a try!](./getting-started.html)
+Are you ready to enter into the Macaca world? [Let's have a try!](./getting-started.html)
