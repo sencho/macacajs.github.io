@@ -11,7 +11,7 @@ permalink: /macaca/guide.html
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <script>
       (function() {
-        var matches = location.hash.match(/^#\/(.+)\??/);
+        var matches = location.hash.match(/^#\/([\w-]+)/);
         if (matches) {
           location.replace('/macaca/' + matches[1] + '.html');
         }
