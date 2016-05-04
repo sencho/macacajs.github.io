@@ -3,3 +3,63 @@ layout: default
 permalink: /macaca/
 ---
 
+<section class="hello-world container text-center">
+  {% include_relative assets/icons/macaca.svg %}
+
+  <h1>
+    {{ site.slogen }}
+    {% include_relative assets/icons/heart.svg %}
+    {% include_relative assets/icons/heart.svg %}
+  </h1>
+
+  <a href="/macaca/getting-started.html" class="getting-started">
+    <paper-ripple class="maroon"></paper-ripple>
+    Getting Started
+  </a>
+</section>
+
+<section class="command">
+  <div class="container">
+    <p class="text-center">Write End-to-End tests in Node.js and run against a WebDriver server.</p>
+
+{% highlight shell %}
+$ npm i -g macaca-cli      # Install Command Line Tools
+$ macaca run               # Run. That's All
+{% endhighlight %}
+  </div>
+</section>
+
+<section class="sample clearfix">
+  <div class="container">
+    <div class="sample-screenshot">
+      <img src="https://os.alipayobjects.com/rmsportal/AupRcQdJrzTdOnd.gif" />
+    </div>
+    <div class="sample-codes">
+      {% include sample.md %}
+    </div>
+  </div>
+</section>
+
+<section class="features clearfix">
+  <div class="container">
+    <div class="feature-item">
+      <h3>Crossing Platforms</h3>
+      <p>Both <strong>Mobile</strong>, Desktop Platforms Supported</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>On Real Devices</h3>
+      <p>Native, Hybrid, Mobile Web Multi-applications Supported</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Easy Testing</h3>
+      <p>Test case dev and debug become more easy</p>
+    </div>
+
+    <div class="feature-item">
+      <h3>Distributed CI</h3>
+      <p>Privately deployed continuous integration service</p>
+    </div>
+  </div>
+</section>

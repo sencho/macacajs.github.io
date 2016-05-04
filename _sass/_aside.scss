@@ -18,7 +18,8 @@ aside {
     &::before {
       position: absolute;
       left: -1.5em;
-      content: '\261E';
+      font-family: FontAwesome, $base-font-family;
+      content: '\f0a4';
     }
   }
 }

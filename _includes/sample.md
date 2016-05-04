@@ -1,4 +1,4 @@
-```js
+{% highlight js %}
 describe('Macaca mobile sample', function() {
   this.timeout(5 * 60 * 1000);
 
@@ -83,4 +83,4 @@ describe('Macaca mobile sample', function() {
       .takeScreenshot();
   });
 });
-```
+{% endhighlight %}

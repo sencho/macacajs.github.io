@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'NanumPen';
+  src: url(../fonts/NanumPen/NanumPenScript-Regular.eot);
+  src: local(Nanum Pen Script),
+       local(NanumPenScript),
+       local(NanumPenScript-Regular),
+       url(../fonts/NanumPen/NanumPenScript-Regular.eot#iefix) format(embedded-opentype),
+       url(../fonts/NanumPen/NanumPenScript-Regular.woff2) format(woff2),
+       url(../fonts/NanumPen/NanumPenScript-Regular.woff) format(woff),
+       url(../fonts/NanumPen/NanumPenScript-Regular.ttf) format(truetype),
+       url(../fonts/NanumPen/NanumPenScript-Regular.svg#NanumPenRegular) format(svg);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fonts/FontAwesome/FontAwesome-webfont.eot?v=4.6.2);
+  src: url(../fonts/FontAwesome/FontAwesome-webfont.eot?#iefix&v=4.6.2) format(embedded-opentype),
+       url(../fonts/FontAwesome/FontAwesome-webfont.woff2?v=4.6.2) format(woff2),
+       url(../fonts/FontAwesome/FontAwesome-webfont.woff?v=4.6.2) format(woff),
+       url(../fonts/FontAwesome/FontAwesome-webfont.ttf?v=4.6.2) format(truetype),
+       url(../fonts/FontAwesome/FontAwesome-webfont.svg?v=4.6.2#FontAwesomeRegular) format(svg);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.hello-world {
+  padding: 5em 0;
+
+  > svg {
+    width: 300px;
+  }
+
+  h1 {
+    font-family: NanumPen, $base-font-family;
+  }
+}
+
+.love {
+  &:first-of-type {
+    transform: translate(8px, 0) scale(1.5) rotate(-14deg);
+  }
+
+  &:last-of-type {
+    transform: translate(20px, -10px) scale(2) rotate(26deg);;
+  }
+}
+
+.getting-started {
+  display: inline-block;
+  position: relative;
+  margin-top: 1em;
+  width: 240px;
+  background: #ee6723;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(87, 71, 81, .2);
+  color: #fff;
+  font-size: 18px;
+  line-height: 46px;
+  transition: box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+
+  &:hover {
+    box-shadow: 0 6px 10px rgba(87, 71, 81, .2);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.command {
+  position: relative;
+  padding: 3em 0;
+  background: #fff;
+  font-size: 1.5em;
+
+  .highlight {
+    margin: 1.5em auto 0;
+    padding: 10px 25px;
+  }
+
+  &::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 55px;
+    height: 140px;
+    margin-left: 258px;
+    margin-top: 58px;
+    background: url(../img/arrow.png) no-repeat;
+    content: '';
+  }
+}
+
+.sample {
+  padding: 2em 0 4em;
+  background: #fff;
+
+  img {
+    max-width: 100%;
+    border-radius: 3px;
+  }
+
+  .highlight {
+    height: 256px;
+    margin-top: 0;
+    overflow: auto;
+  }
+}
+
+.sample-codes,
+.sample-screenshot {
+  float: right;
+  width: 50%;
+}
+
+.sample-codes {
+  padding-right: 15px;
+}
+
+.sample-screenshot {
+  padding-left: 15px;
+}
+
+.features {
+  padding: 6em 0 1em;
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    margin-top: 8px;
+    color: #888;
+    font-size: 18px;
+  }
+}
+
+.feature-item {
+  position: relative;
+  float: left;
+  width: 48%;
+  height: 12em;
+  padding-left: 80px;
+
+  &::before,
+  &::after {
+    position: absolute;
+    top: -3px;
+    left: 8px;
+    color: #ee6723;
+    font: normal 40px/1 FontAwesome, $base-font-family;
+  }
+
+  &:nth-of-type(2n-1) {
+    padding-right: 100px;
+    width: 52%;
+  }
+
+  &:nth-of-type(1)::before {
+    left: 0;
+    content: '\f108';
+  }
+  &:nth-of-type(1)::after {
+    top: 6px;
+    left: 37px;
+    font-size: 40px;
+    content: '\f10b';
+  }
+
+  &:nth-of-type(2)::before {
+    content: '\f085';
+  }
+
+  &:nth-of-type(3)::before {
+    content: '\f0f4';
+  }
+
+  &:nth-of-type(4)::before {
+    content: '\f1e0';
+  }
+}

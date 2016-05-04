@@ -1,3 +1,5 @@
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +12,7 @@
 body {
   background: rgba(188, 181, 185, .1);
   color: #233;
-  font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.6 $base-font-family;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -39,24 +41,19 @@ a {
   padding-right: 15px;
 
   @media (min-width: 768px) {
-    width: 750px;
-  }
-  @media (min-width: 992px) {
-    width: 970px;
-  }
-  @media (min-width: 1200px) {
-    width: 1170px;
+    width: 1000px;
   }
 }
 
 header {
+  height: 72px;
+  overflow: hidden;
   background: #fff;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .05);
 }
 
 .brand {
   float: left;
-  height: 72px;
   color: #233;
   font-size: 26px;
   line-height: 72px;
@@ -69,14 +66,13 @@ header {
 }
 
 nav {
-  height: 72px;
-  text-align: right;
+  float: right;
 
   a {
+    float: left;
     display: inline-block;
     position: relative;
     padding: 0 25px;
-    height: 100%;
     line-height: 72px;
     color: #bbb;
     text-decoration: none;
@@ -94,10 +90,6 @@ nav {
   }
 }
 
-paper-ripple.peach {
-  color: #ee6723;
-}
-
 footer {
   padding: 20px 0;
   color: #bbb;
@@ -107,4 +99,30 @@ footer {
   a {
     color: darken(#bbb, 10%);
   }
+}
+
+paper-ripple {
+  &.peach {
+    color: #ee6723;
+  }
+
+  &.maroon {
+    color: #574751;
+  }
+}
+
+.clearfix {
+  &::before,
+  &::after {
+    display: table;
+    content: ' ';
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+.text-center {
+  text-align: center;
 }
