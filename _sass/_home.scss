@@ -1,40 +1,8 @@
-@font-face {
-  font-family: 'NanumPen';
-  src: url(../fonts/NanumPen/NanumPenScript-Regular.eot);
-  src: local(Nanum Pen Script),
-       local(NanumPenScript),
-       local(NanumPenScript-Regular),
-       url(../fonts/NanumPen/NanumPenScript-Regular.eot#iefix) format(embedded-opentype),
-       url(../fonts/NanumPen/NanumPenScript-Regular.woff2) format(woff2),
-       url(../fonts/NanumPen/NanumPenScript-Regular.woff) format(woff),
-       url(../fonts/NanumPen/NanumPenScript-Regular.ttf) format(truetype),
-       url(../fonts/NanumPen/NanumPenScript-Regular.svg#NanumPenRegular) format(svg);
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FontAwesome';
-  src: url(../fonts/FontAwesome/FontAwesome-webfont.eot?v=4.6.2);
-  src: url(../fonts/FontAwesome/FontAwesome-webfont.eot?#iefix&v=4.6.2) format(embedded-opentype),
-       url(../fonts/FontAwesome/FontAwesome-webfont.woff2?v=4.6.2) format(woff2),
-       url(../fonts/FontAwesome/FontAwesome-webfont.woff?v=4.6.2) format(woff),
-       url(../fonts/FontAwesome/FontAwesome-webfont.ttf?v=4.6.2) format(truetype),
-       url(../fonts/FontAwesome/FontAwesome-webfont.svg?v=4.6.2#FontAwesomeRegular) format(svg);
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 .hello-world {
   padding: 5em 0;
 
   > svg {
     width: 300px;
-  }
-
-  h1 {
-    font-family: NanumPen, $base-font-family;
   }
 }
 
