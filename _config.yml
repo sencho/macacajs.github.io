@@ -15,5 +15,8 @@ defaults:
 
 timezone: Asia/Shanghai
 
+sass:
+  style: compressed
+
 # gems:
 #   - jemoji
