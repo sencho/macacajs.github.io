@@ -43,13 +43,13 @@ describe('Macaca test sample', function() {
     return driver
       .webview()
       .elementById('index-kw')
-      .sendKeys('TesterHome')
+      .sendKeys('Macaca')
       .elementById('index-bn')
       .tap()
       .sleep(5000)
       .source()
       .then(function(html) {
-        html.should.containEql('TesterHome');
+        html.should.containEql('Macaca');
       })
       .takeScreenshot();
   });

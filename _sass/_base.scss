@@ -19,6 +19,7 @@ body {
 a {
   color: #ee6723;
   text-decoration: none;
+  -webkit-transition: color .1s;
   transition: color .1s;
 
   &:hover,
@@ -26,6 +27,12 @@ a {
     color: darken(#ee6723, 10%);
     text-decoration: underline;
   }
+}
+
+::-moz-selection {
+  background: #ee6723;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
 }
 
 ::selection {
@@ -86,6 +93,7 @@ nav {
       height: 0;
       content: '';
       background: #ee6723;
+      -webkit-transition: height .2s;
       transition: height .2s;
     }
 
@@ -105,6 +113,50 @@ nav {
     }
   }
 }
+
+.menu {
+  display: none;
+}
+
+// Mobile
+@media (max-width: 767px) {
+  header {
+    position: relative;
+    min-height: 72px;
+    height: auto;
+    overflow: visible;
+  }
+
+  nav {
+    display: none;
+    float: none;
+    clear: both;
+
+    a {
+      float: none;
+      display: block;
+      line-height: 3;
+    }
+  }
+
+  .menu {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 80px;
+    border: 0;
+    background: none;
+    outline: none;
+    text-align: center;
+
+    &::before {
+      font: 26px/2 FontAwesome, $base-font-family;
+      content: '\f0c9';
+    }
+  }
+}
+
 
 footer {
   padding: 20px 0;

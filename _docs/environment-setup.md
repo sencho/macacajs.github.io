@@ -38,7 +38,7 @@ $ npm i -g macaca-cli
 
 If you saw the picture below, congratulations! Macaca has been installed successfully!
 
-![](http://ww3.sinaimg.cn/large/6d308bd9gw1f3id1x8gw9j20pe0u2h94.jpg)
+![](https://os.alipayobjects.com/rmsportal/zSmLbyWUarTabaP.png)
 
 Let's check the version and verify the environment.
 

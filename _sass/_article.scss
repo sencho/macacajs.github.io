@@ -4,6 +4,11 @@ article {
 
   aside + & {
     margin-left: 250px;
+
+    @media (max-width: 767px) {
+      margin-left: 0;
+      padding: 25px 0 50px;
+    }
   }
 
   h1 {

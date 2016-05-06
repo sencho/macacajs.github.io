@@ -1,0 +1,16 @@
+<select class="nav-mobile" onchange="if (this.value) window.location.href=this.value">
+  <option value="">Navigate the docs…</option>
+  {% for section in site.data.docs %}
+  <optgroup label="{{ section.title }}">
+    {% for item in section.docs %}
+      {% assign item_path = item | prepend: "_docs/" | append: ".md" %}
+      {% assign p = site.docs | where: "path",item_path | first %}
+      <option value="{{ p.url }}">{{ p.title }}</option>
+    {% endfor %}
+
+    {% for item in section.links %}
+      <option value="{{ item[1] }}">{{ item[0] }}</option>
+    {% endfor %}
+  </optgroup>
+  {% endfor %}
+</select>

@@ -4,18 +4,20 @@ permalink: /macaca/
 ---
 
 <section class="hello-world container text-center">
-  {% include_relative assets/icons/macaca.svg %}
+  <div class="container">
+    {% include_relative assets/icons/macaca.svg %}
 
-  <h1>
-    {{ site.slogen }}
-    {% include_relative assets/icons/heart.svg %}
-    {% include_relative assets/icons/heart.svg %}
-  </h1>
+    <h1>
+      {{ site.slogen }}
+      {% include_relative assets/icons/heart.svg %}
+      {% include_relative assets/icons/heart.svg %}
+    </h1>
 
-  <a href="/macaca/getting-started.html" class="getting-started">
-    <paper-ripple class="maroon"></paper-ripple>
-    Getting Started
-  </a>
+    <a href="/macaca/getting-started.html" class="getting-started">
+      <paper-ripple class="maroon"></paper-ripple>
+      Getting Started
+    </a>
+  </div>
 </section>
 
 <section class="command">
@@ -23,20 +25,21 @@ permalink: /macaca/
     <p class="text-center">Write End-to-End tests in Node.js and run against a WebDriver server.</p>
 
 {% highlight shell %}
-$ npm i -g macaca-cli      # Install Command Line Tools
-$ macaca run               # Run. That's All
+$ npm i -g macaca-cli       # Install Command Line Tools
+$ macaca run                # Run. That's All
 {% endhighlight %}
   </div>
+
+  <button id="play" class="play" title="Watch Video">
+    <paper-ripple class="maroon"></paper-ripple>
+  </button>
 </section>
 
 <section class="sample clearfix">
   <div class="container">
-    <div class="sample-screenshot">
-      <img src="https://os.alipayobjects.com/rmsportal/AupRcQdJrzTdOnd.gif" />
-    </div>
-    <div class="sample-codes">
-      {% include sample.md %}
-    </div>
+    <video id="sample-video" preload="auto" controls>
+      <source src="https://os.alipayobjects.com/rmsportal/rEgPjSRIJBwfbMq.mp4" type="video/mp4" />
+    </video>
   </div>
 </section>
 
@@ -63,3 +66,16 @@ $ macaca run               # Run. That's All
     </div>
   </div>
 </section>
+
+<script>
+  (function() {
+    var sampleVideo = document.getElementById('sample-video');
+    var videoContainer = sampleVideo.parentNode.parentNode;
+    var playBtn = document.getElementById('play');
+
+    playBtn.addEventListener('click', function() {
+      videoContainer.style.display = 'block';
+      sampleVideo.play();
+    }, false);
+  })();
+</script>

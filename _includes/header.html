@@ -1,7 +1,8 @@
-<header>
+<header class="clearfix">
   <div class="container">
     <a href="/macaca/" class="brand">{{ site.name }}</a>
-    <nav>
+
+    <nav id="nav">
       <a href="/macaca/"{% if page.path == "index.html" %} class="current"{% endif %}>
         <paper-ripple class="peach"></paper-ripple>
         Home
@@ -23,5 +24,20 @@
         GitHub
       </a>
     </nav>
+
+    <button id="menu" class="menu"></button>
   </div>
 </header>
+
+<script>
+  (function() {
+    var menu = document.getElementById('menu');
+    var nav = document.getElementById('nav');
+    var hidden = true;
+
+    menu.addEventListener('click', function() {
+      nav.style.display = hidden ? 'block' : 'none';
+      hidden = !hidden;
+    }, false);
+  })();
+</script>
