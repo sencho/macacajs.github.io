@@ -70,7 +70,7 @@ Android: An valid Android application package suffixed with `.apk`.
 ## Run Macaca
 
 ```shell
-$ macaca run --verbose
+$ macaca run
 ```
 
 Further options could be found in [macaca-cli-command](./cli-usage.html).
@@ -83,17 +83,25 @@ Check out the sample located in this repo([macaca-test-sample](https://github.co
 $ git clone git@github.com:xudafeng/macaca-test-sample.git
 $ cd macaca-test-sample
 $ npm install
-$ macaca run --verbose
+$ macaca run
 ```
 
-### iOS
+### iOS APP
 
-![ios-screenshot](https://os.alipayobjects.com/rmsportal/AupRcQdJrzTdOnd.gif)
+{% include video.html url="https://os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
 
-### Android
+### Mobile Safari
 
-![android-screenshot](https://os.alipayobjects.com/rmsportal/pEWPOynHBBzleiJ.gif)
+{% include video.html url="https://os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
 
-### Desktop
+### Android APP
 
-![desktop-screenshot](https://os.alipayobjects.com/rmsportal/hlSZRyFulWWbFdf.gif)
+{% include video.html url="https://os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
+
+### Android Browser
+
+{% include video.html url="https://os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
+
+### Desktop (Electron)
+
+{% include video.html url="https://os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
