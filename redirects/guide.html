@@ -6,8 +6,7 @@ permalink: /macaca/guide.html
 <script>
   (function() {
     var matches = location.hash.match(/^#\/([\w-]+)/);
-    if (matches) {
-      location.replace('/macaca/' + matches[1] + '.html');
-    }
+    var redirectPath = matches ? matches[1] : 'getting-started';
+    location.replace('/macaca/' + redirectPath + '.html');
   })();
 </script>
