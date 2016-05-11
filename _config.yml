@@ -16,6 +16,7 @@ defaults:
 timezone: Asia/Shanghai
 
 sass:
+  # style: expanded
   style: compressed
 
 # gems:
