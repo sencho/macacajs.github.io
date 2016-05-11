@@ -6,7 +6,7 @@ title: Need help?
 
 Because we have lots of modules we use the main repo ([Macaca](https://github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. Using [GitHub issues](https://github.com/alibaba/macaca/issues).
 
-Packages can be found in [Macaca group](https://github.com/macacajs) and [reliable group](https://github.com/reliablejs).
+Packages can be found in [Macaca group](https://github.com/macacajs) and [Reliable group](https://github.com/reliablejs).
 
 Team members can be found in [group](https://github.com/orgs/macacajs/people).
 
