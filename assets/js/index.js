@@ -7,13 +7,12 @@
   // listen for scroll event to do positioning
   window.addEventListener('scroll', toggleSidebarClass, false)
   window.addEventListener('resize', toggleSidebarClass, false)
+  toggleSidebarClass()
 
   // init smooth scroll
   smoothScroll.init({
     speed: 400,
-    offset: window.innerWidth > 720
-      ? 40
-      : 58
+    offset: window.innerWidth > 720 ? 40 : 58
   })
 
   function toggleSidebarClass() {
