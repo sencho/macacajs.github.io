@@ -2,7 +2,7 @@
 title: Macaca CLI Usage
 ---
 
-## Installment
+## Installation
 
 ```shell
 $ npm i -g macaca-cli
