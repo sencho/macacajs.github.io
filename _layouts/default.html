@@ -18,7 +18,7 @@
     <link rel="import" href="/assets/polymer/paper-ripple.html" />
   </head>
 
-  <body>
+  <body data-page="{% if page.id %}{{ page.id }}{% else %}home{% endif %}">
     {% include header.html %}
 
     {{ content }}

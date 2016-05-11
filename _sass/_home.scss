@@ -1,3 +1,9 @@
+body[data-page="home"] .container {
+  @media (min-width: 768px) {
+    width: 1000px;
+  }
+}
+
 .hello-world {
   padding: 5em 0;
 

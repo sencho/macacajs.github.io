@@ -1,6 +1,7 @@
 aside {
   float: left;
   padding-top: 60px;
+  padding-right: 20px;
 
   h4 {
     margin-bottom: .5em;
@@ -8,18 +9,30 @@ aside {
   }
 
   ul {
+    padding-left: .5em;
     padding-bottom: 1.5em;
     list-style: none;
+    line-height: 1.8;
+  }
+
+  a,
+  a:hover {
+    color: #233;
   }
 
   li.current {
     position: relative;
 
-    &::before {
-      position: absolute;
-      left: -1.5em;
+    a {
+      color: #ee6723;
+    }
+
+    &::after {
+      margin: .25em 0 0 .5em;
+      color: #ee6723;
       font-family: FontAwesome, $base-font-family;
-      content: '\f0a4';
+      font-size: 90%;
+      content: '\f00c';
     }
   }
 
