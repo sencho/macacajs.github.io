@@ -6,15 +6,13 @@ title: Need help?
 
 Because we have lots of modules we use the main repo ([Macaca](https://github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. Using [GitHub issues](https://github.com/alibaba/macaca/issues).
 
-Packages can be found in [Macaca group](https://github.com/macacajs) and [Reliable group](https://github.com/reliablejs).
+Packages can be found in [Macaca Group](https://github.com/macacajs) and [Reliable Group](https://github.com/reliablejs).
 
-Team members can be found in [group](https://github.com/orgs/macacajs/people).
+Team members can be found in [here](https://github.com/orgs/macacajs/people).
 
 ## Quick questions
 
-<a href="https://gitter.im/alibaba/macaca" target="_blank">
-  <img src="https://img.shields.io/badge/GITTER-join%20chat-green.svg?style=flat-square" style="width:100px;"/>
-</a>
+[![GITTER](https://img.shields.io/badge/GITTER-join%20chat-green.svg?style=flat-square)](https://gitter.im/alibaba/macaca)
 
 ## Stack Overflow
 

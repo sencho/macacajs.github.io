@@ -59,7 +59,7 @@ describe('Macaca test sample', function() {
 });
 ```
 
-All the implementation are conformed to [WebDriver Spec](https://w3c.github.io/webdriver/webdriver-spec.html), API docs can be found [here](//macacajs.github.io/macaca-wd/docs).
+All the implementation are conformed to [WebDriver Spec](https://w3c.github.io/webdriver/webdriver-spec.html), API docs can be found [here](//macacajs.github.io/macaca-wd/api/).
 
 ## Prepare application
 

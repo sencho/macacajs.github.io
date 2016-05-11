@@ -8,6 +8,6 @@ In order to build and run the master server quickly, without considering about r
 
 Docker is the default and recommended way to deploy master.
 
-<a target="_blank" href="https://github.com/reliablejs/reliable-master/blob/master/docs/en/deploy.md">Master Deployment Guide</a>
+[Master Deployment Guide](https://github.com/reliablejs/reliable-master/blob/master/docs/en/deploy.md)
 
 ![Macaca-Docker](https://os.alipayobjects.com/rmsportal/nRzqNDOeckHimzF.png)
