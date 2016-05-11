@@ -4,7 +4,7 @@ title: Getting Started
 
 ## Project structure
 
-Project structure includes a folder called macaca-test, all your test files should be suffixed with `.test.js`.
+Project structure includes a folder called `macaca-test`, all your test files should be suffixed with `.test.js`.
 
 Each test file will be executed synchronously.
 
@@ -59,7 +59,7 @@ describe('Macaca test sample', function() {
 });
 ```
 
-All the implementation are conformed to [WebDriver Spec](https://w3c.github.io/webdriver/webdriver-spec.html), API docs can be found [here](//macacajs.github.io/macaca-wd/api/).
+All the implementation are conformed to [WebDriver Spec](https://w3c.github.io/webdriver/webdriver-spec.html), and all API docs can be found [here](//macacajs.github.io/macaca-wd/api/).
 
 ## Prepare application
 
@@ -80,9 +80,8 @@ Further options could be found in [this document](./cli-usage.html).
 Check out the sample located in this repo([macaca-test-sample](https://github.com/xudafeng/macaca-test-sample)), and enjoy it.
 
 ```
-$ git clone git@github.com:xudafeng/macaca-test-sample.git
-$ cd macaca-test-sample
-$ npm install
+$ git clone https://github.com/xudafeng/macaca-test-sample.git && cd -
+$ npm i
 $ macaca run
 ```
 
