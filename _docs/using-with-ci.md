@@ -1,6 +1,9 @@
 ---
-title: Using with CI
+title: Using with CI Platform
 ---
+
+>
+  Docs coming soon ...
 
 ## Reliable
 
@@ -9,5 +12,3 @@ title: Using with CI
 ## GitLab-CI
 
 ## Jenkins
-
-docs coming song ...

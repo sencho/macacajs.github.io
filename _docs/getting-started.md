@@ -4,7 +4,7 @@ title: Getting Started
 
 ## Project structure
 
-Project structure includes a folder called macaca-test, all your test files should be suffixed with .test.js.
+Project structure includes a folder called macaca-test, all your test files should be suffixed with `.test.js`.
 
 Each test file will be executed synchronously.
 
@@ -22,7 +22,7 @@ Each test file will be executed synchronously.
 
 ## Testcase
 
-The [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) interface provides methods like: describe(), it(), before(), after(), beforeEach(), and afterEach().
+The [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) interface provides methods like: `describe()`, `it()`, `before()`, `after()`, `beforeEach()`, and `afterEach()`.
 
 The snippet below is the recommended way to write your testcase.
 
@@ -73,7 +73,7 @@ Android: An valid Android application package suffixed with `.apk`.
 $ macaca run
 ```
 
-Further options could be found in [macaca-cli-command](./cli-usage.html).
+Further options could be found in [this document](./cli-usage.html).
 
 ## Examples
 

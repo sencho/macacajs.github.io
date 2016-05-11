@@ -20,7 +20,5 @@ Use Stack Overflow to ask questions. Read through the [existing questions](http:
 
 ## Community
 
-### Chinese
-
 - [Macaca in Testerhome](https://testerhome.com/topics/node68)
-- [Macaca in Cnodejs](https://cnodejs.org)
+- [Macaca in cnodejs](https://cnodejs.org)

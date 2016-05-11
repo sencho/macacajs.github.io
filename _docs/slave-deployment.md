@@ -2,12 +2,15 @@
 title: Slave Deployment
 ---
 
-Before deploy the `reliable-slave`, there should be a `reliable-master` server running already.
+Before deploy the [`reliable-macaca-slave`][slave], there should be a [`reliable-master`][master] server running already.
 
-If there wasn't, you should deploy the [`reliable-master`](https://github.com/reliablejs/reliable-master/blob/master/docs/en/deploy.md) first.
+If there wasn't, you should [`deploy the reliable-master`][deploy] first.
 
-After the `reliable-master` server is running, we could use command to deploy `reliable-slave`.
+After run the `reliable-master` server, we could use command to deploy `reliable-macaca-slave`.
 
-[Slave Deployment Guide](https://github.com/reliablejs/reliable-macaca-slave/blob/master/docs/en/deploy.md)
+![Reliable Macaca Slave](https://os.alipayobjects.com/rmsportal/JRidRgCDdbweaEH.png)
 
-![Reliable-Macaca-Slave](https://os.alipayobjects.com/rmsportal/JRidRgCDdbweaEH.png)
+
+[master]: https://github.com/reliablejs/reliable-master
+[deploy]: /macaca/master-deployment.html
+[slave]: https://github.com/reliablejs/reliable-macaca-slave
