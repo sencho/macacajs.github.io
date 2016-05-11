@@ -23,6 +23,13 @@ aside {
     }
   }
 
+  &.fixed {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+
   @media (max-width: 767px) {
     display: none;
   }
