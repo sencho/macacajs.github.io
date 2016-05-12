@@ -86,3 +86,11 @@ Configuration:
 - repo - Path of `reliable` source code folder.
 - url - Url to get slaves info, `http://<hostname>:<port>/slaves`, like `http://localhost:3333/slaves`
 - slave_path - Path of data backup in your slaves, default is `~/data_backup`
+
+## Screenshots
+
+![reliable-1](http://ww1.sinaimg.cn/large/6d308bd9gw1f1ygp19gllj20xl0oldna.jpg)
+
+![reliable-2](http://ww3.sinaimg.cn/large/6d308bd9gw1f1ygp26ocej20wr0j2tcz.jpg)
+
+![reliable-3](http://ww4.sinaimg.cn/large/6d308bd9gw1f1yr1jy4ohj20qj0jzgn4.jpg)

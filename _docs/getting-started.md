@@ -13,6 +13,7 @@ Each test file will be executed synchronously.
 ├── ...
 ├── README.md
 ├── macaca-test
+│   ├── ...
 │   ├── testcase01.test.js
 │   ├── testcase02.test.js
 │   ├── testcase03.test.js
