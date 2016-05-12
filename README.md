@@ -6,7 +6,7 @@ This site is built with [Jekyll](https://jekyllrb.com/). Site content is written
 
 Start a dev server at `localhost:4000`:
 
-```
+```shell
 $ gem install jekyll
 $ jekyll server
 ```

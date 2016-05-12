@@ -11,10 +11,6 @@
     - using-with-ci
 
 - title: About
-  links:
-    -
-      - FAQ
-      - https://github.com/alibaba/macaca/wiki/FAQ
-    -
-      - Change Log
-      - https://github.com/alibaba/macaca/wiki/Changelog
+  docs:
+    - changelog
+    - faq
