@@ -92,7 +92,19 @@ before_script:
 
 ## Circle-CI
 
-> Docs coming soon ...
+### Electron
+
+Circle CI is awesome and has xvfb and $DISPLAY already setup, so no further configuration is required.
+
+```yml
+general:
+  branches:
+    ignore:
+      - gh-pages # list of branches to ignore
+machine:
+  node:
+    version: v4.2.1
+```
 
 ## GitLab-CI
 
