@@ -96,6 +96,8 @@ before_script:
 
 Circle CI is awesome and has xvfb and $DISPLAY already setup, so no further configuration is required.
 
+Add config to your `circle.yml`:
+
 ```yml
 general:
   branches:

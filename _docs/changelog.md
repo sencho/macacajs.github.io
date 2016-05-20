@@ -2,6 +2,11 @@
 title: Change Log
 ---
 
+## 2016.05.22
+
+- Command-line tools compatible with windows
+- Environment doctor is optimized
+
 ## 2016.04.22
 
 - Added `macaca-chrome` & `macaca electron`
