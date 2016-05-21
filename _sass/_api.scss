@@ -49,6 +49,7 @@
   max-width: 100%;
   overflow-x: auto;
   margin-top: .5em;
+  border: 1px solid #ddd;
   border-radius: 4px;
 
   table {
@@ -60,22 +61,16 @@
 
   td,
   th {
+    display: table-cell;
     margin: 0;
+    padding: 10px;
     text-align: left;
     vertical-align: top;
-    padding: 10px;
-    display: table-cell;
   }
 
-  thead tr,
-  thead tr {
+  th {
     font-weight: bold;
   }
-}
-
-.params .params thead tr,
-.props .props thead tr {
-  font-weight: bold;
 }
 
 .params td {

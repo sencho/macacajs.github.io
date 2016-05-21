@@ -57,31 +57,26 @@ article {
     max-width: 100%;
   }
 
-  table {
-    margin: 0;
-    padding: 0;
-    display: block;
+  > table {
     width: 100%;
-    overflow: auto;
-    word-break: normal;
+    overflow-x: auto;
+    border: 0;
+    border-spacing: 0;
     border-collapse: collapse;
-  }
 
-  table th {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    background-color: #f8f8f8;
-  }
+    td,
+    th {
+      display: table-cell;
+      margin: 0;
+      padding: 8px 12px;
+      background: #fff;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
 
-  table th,
-  table td {
-    padding: 6px 13px;
-    border: 1px solid #ddd
-  }
-
-  table tr {
-    background-color: #fff;
-    border-top: 1px solid #ccc
+    th {
+      background: #f8f8f8;
+      font-weight: bold;
+    }
   }
 }
