@@ -10,6 +10,12 @@ $ npm i -g macaca-cli
 
 ## Quick Start
 
+### Install Driver
+
+```shell
+$ macaca install ios
+```
+
 ### Run test tasks
 
 ```shell
