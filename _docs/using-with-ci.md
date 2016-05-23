@@ -1,5 +1,5 @@
 ---
-title: Using with CI Platform
+title: Integration with CI Server
 ---
 
 ## Reliable

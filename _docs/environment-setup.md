@@ -32,6 +32,8 @@ export ANDROID_HOME = path/to/your/Android/sdk
 
 ## Macaca
 
+### Global Installation
+
 ```shell
 $ npm i -g macaca-cli
 ```
@@ -39,6 +41,17 @@ $ npm i -g macaca-cli
 If you saw the picture below, congratulations! Macaca has been installed successfully!
 
 ![](https://os.alipayobjects.com/rmsportal/zSmLbyWUarTabaP.png)
+
+### Local Installation
+
+```shell
+$ npm install macaca-cli
+
+# start Macaca
+$ ./node_modules/.bin/macaca run
+```
+
+### Environment
 
 Let's check the version and verify the environment.
 

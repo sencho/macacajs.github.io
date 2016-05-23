@@ -3,6 +3,7 @@
     - getting-started
     - environment-setup
     - cli-usage
+    - debugging
 
 - title: CI Service
   docs:
