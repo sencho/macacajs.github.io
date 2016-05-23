@@ -53,7 +53,7 @@ $ ./node_modules/.bin/macaca run
 
 ### Driver Installation
 
-| Platform   | Version                                  | Status    |
+| Driver     | Version                                  | Status    |
 | ---------- | ---------------------------------------- | --------- |
 | Android    | [![NPM version][npm-image-0]][npm-url-0] | [![build status][travis-image-0]][travis-url-0]          |
 | Chrome     | [![NPM version][npm-image-1]][npm-url-1] | [![build status][travis-image-1]][travis-url-1]          |
