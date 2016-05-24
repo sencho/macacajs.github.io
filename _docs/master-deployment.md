@@ -87,6 +87,14 @@ Configuration:
 - url - Url to get slaves info, `http://<hostname>:<port>/slaves`, like `http://localhost:3333/slaves`
 - slave_path - Path of data backup in your slaves, default is `~/data_backup`
 
+## Integration With Service
+
+Want to integration with other service like Gitlab-CI or Jenkins?
+
+POST `macaca-host/api/task/create/gitlab-push.json` to submit a task.
+
+More about the data schema, please check Gitlab documents.
+
 ## Screenshots
 
 ![reliable-1](http://ww1.sinaimg.cn/large/6d308bd9gw1f1ygp19gllj20xl0oldna.jpg)

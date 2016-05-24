@@ -107,11 +107,3 @@ machine:
   node:
     version: v4.2.1
 ```
-
-## GitLab-CI
-
-> Docs coming soon ...
-
-## Jenkins
-
-> Docs coming soon ...
