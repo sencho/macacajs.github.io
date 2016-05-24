@@ -79,6 +79,7 @@ $ ./node_modules/.bin/macaca run
 [travis-url-3]: https://travis-ci.org/macacajs/macaca-ios
 
 ```shell
+# For example, we need iOS driver
 $ macaca install ios
 ```
 
