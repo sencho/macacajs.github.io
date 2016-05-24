@@ -23,7 +23,7 @@ Docker is the default and recommended way to deploy master.
 Get the source code, then you can use docker and docker-compose to setup `reliable`, just like:
 
 ```shell
-git clone //github.com/reliablejs/reliable-master.git
+git clone https://github.com/reliablejs/reliable-master.git
 cd reliable
 make deploy
 ```
