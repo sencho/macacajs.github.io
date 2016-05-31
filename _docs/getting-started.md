@@ -80,7 +80,7 @@ Further options could be found in [this document](./cli-usage.html).
 
 Check out the sample located in this repo([macaca-test-sample](https://github.com/macacajs/macaca-test-sample)), and enjoy it.
 
-```
+```shell
 $ git clone --depth=1 https://github.com/macacajs/macaca-test-sample.git
 $ cd macaca-test-sample
 $ npm i
