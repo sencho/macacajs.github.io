@@ -79,8 +79,10 @@ $ ./node_modules/.bin/macaca run
 [travis-url-3]: https://travis-ci.org/macacajs/macaca-ios
 
 ```shell
-# For example, we need iOS driver
+# For example, we need iOS driver, just for npm2
 $ macaca install ios
+# please run below for newer npm
+$ npm i macaca-ios -g
 ```
 
 ### Environment
