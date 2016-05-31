@@ -78,13 +78,13 @@ Further options could be found in [this document](./cli-usage.html).
 
 ## Examples
 
-Check out the sample located in this repo([macaca-test-sample](https://github.com/xudafeng/macaca-test-sample)), and enjoy it.
+Check out the sample located in this repo([macaca-test-sample](https://github.com/macacajs/macaca-test-sample)), and enjoy it.
 
 ```
-$ git clone --depth=1 https://github.com/xudafeng/macaca-test-sample.git
+$ git clone --depth=1 https://github.com/macacajs/macaca-test-sample.git
 $ cd macaca-test-sample
 $ npm i
-$ macaca run
+$ macaca run --verbose
 ```
 
 ### iOS APP
