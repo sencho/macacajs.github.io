@@ -2,25 +2,11 @@
 title: Macaca CLI Usage
 ---
 
-## Installation
-
-```shell
-$ npm i -g macaca-cli
-```
-
-## Quick Start
-
-### Install Driver
-
-```shell
-$ macaca install ios
-```
-
 ### Run test tasks
 
 ```shell
 # run test in current cwd
-$ macaca run
+$ macaca run --verbose
 
 # run test in a pointed directry and set a framework
 $ macaca run -d ./test -f mocha
@@ -32,17 +18,14 @@ $ macaca run -o
 $ macaca run --no-window
 ```
 
-### Start server
+### Start webdriver server only
 
 ```shell
 # normal usage
-$ macaca server
+$ macaca server --verbose
 
 # set a port
 $ macaca server -p 3456
-
-# run in background
-$ macaca server -p 3456 &
 ```
 
 ### Environment doctor
@@ -62,8 +45,4 @@ $ macaca server -h
 # helper for how to run test
 $ macaca run -h
 
-# helper for environment doctor
-$ macaca doctor -h
 ```
-
-#### That's all, enjoy it!

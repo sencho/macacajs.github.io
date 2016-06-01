@@ -15,10 +15,11 @@ $ macaca server --verbose
 $ node
 ```
 
-## Devtool
+## Devtool Usage
 
 ```shell
 $ npm i -g devtool
+# run devtool in your project directory
 $ devtool
 ```
 

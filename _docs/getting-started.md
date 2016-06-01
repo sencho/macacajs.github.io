@@ -27,7 +27,7 @@ The [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) interface p
 
 The snippet below is the recommended way to write your testcase.
 
-```js
+```javascript
 describe('Macaca test sample', function() {
 
   ...
@@ -60,13 +60,15 @@ describe('Macaca test sample', function() {
 });
 ```
 
-All the implementation are conformed to [WebDriver Spec](https://w3c.github.io/webdriver/webdriver-spec.html), and all API docs can be found [here](//macacajs.github.io/macaca-wd/api/).
+All the implementation are conformed to [WebDriver Spec](//w3c.github.io/webdriver/webdriver-spec.html), and all API docs can be found [here](//macacajs.github.io/macaca-wd/api/).
 
 ## Prepare application
 
 iOS: An valid iOS application package suffixed with `.app`.
 
 Android: An valid Android application package suffixed with `.apk`.
+
+Desktop: All web application could be run with initial url.
 
 ## Run Macaca
 
@@ -81,7 +83,7 @@ Further options could be found in [this document](./cli-usage.html).
 Check out the sample located in this repo([macaca-test-sample](https://github.com/macacajs/macaca-test-sample)), and enjoy it.
 
 ```shell
-$ git clone --depth=1 https://github.com/macacajs/macaca-test-sample.git
+$ git clone https://github.com/macacajs/macaca-test-sample.git --depth=1
 $ cd macaca-test-sample
 $ npm i
 $ macaca run --verbose

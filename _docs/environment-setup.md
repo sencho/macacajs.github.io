@@ -45,10 +45,10 @@ If you saw the picture below, congratulations! Macaca has been installed success
 ### Local Installation
 
 ```shell
-$ npm install macaca-cli
+$ npm i macaca-cli --save-dev
 
 # start Macaca
-$ ./node_modules/.bin/macaca run
+$ ./node_modules/.bin/macaca run --verbose
 ```
 
 ### Driver Installation
