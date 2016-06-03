@@ -54,23 +54,25 @@ There is the relevant description:
 Alternatively, you can manually launch the relibale container and the supporting mongo and redis containers by following this three step guide.
 
 
-Step 1. Launch a mongo container
-```
+- Step 1. Launch a mongo container
+
+```shell
 docker run --restart=always \
 --name reliable_mongo_prod \
 -v /var/lib/mongo \
 -v /etc/localtime:/etc/localtime:ro \
 -d mongo
-
 ```
 
-Step 2. Launch a redis container
-```
+- Step 2. Launch a redis container
+
+```shell
 docker run --restart=always --name reliable_redis_prod -v /etc/localtime:/etc/localtime:ro -d redis
 ```
 
-Step 3. Launch the reliable_master container
-```
+- Step 3. Launch the reliable_master container
+
+```shell
 docker run --restart=always --name reliable_master_prod \
 -v /etc/localtime:/etc/localtime:ro \
 --link reliable_mongo_prod:mongo \
@@ -84,7 +86,7 @@ docker run --restart=always --name reliable_master_prod \
 
 >##### Notice
 Please allow a couple of minutes for the Reliable application to start
->Point your browser to http://localhost:8080 and ,run again `make adduser env=prod` to set a password for the root user account .if you use default env please use other port what you set.
+>Point your browser to http://localhost:8080 and ,run again `make adduser env=prod` to set a password for the root user account .If you use default env please use other port what you set.
 
 
 
