@@ -8,3 +8,4 @@ title: FAQ
 - [权限问题导致的无法运行](https://github.com/alibaba/macaca/issues/8)
 - [Linux 环境下运行注意事项](https://github.com/alibaba/macaca/issues/6)
 - [iOS 包编译问题导致无法运行](https://github.com/alibaba/macaca/issues/4)
+- [如何查找和定位Native和网页的元素](https://github.com/alibaba/macaca/issues/65)
