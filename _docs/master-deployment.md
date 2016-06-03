@@ -50,6 +50,44 @@ There is the relevant description:
 
 ## Advanced Topics
 
+### Manually Launch
+Alternatively, you can manually launch the relibale container and the supporting mongo and redis containers by following this three step guide.
+
+
+Step 1. Launch a mongo container
+```
+docker run --restart=always \
+--name reliable_mongo_prod \
+-v /var/lib/mongo \
+-v /etc/localtime:/etc/localtime:ro \
+-d mongo
+
+```
+
+Step 2. Launch a redis container
+```
+docker run --restart=always --name reliable_redis_prod -v /etc/localtime:/etc/localtime:ro -d redis
+```
+
+Step 3. Launch the reliable_master container
+```
+docker run --restart=always --name reliable_master_prod \
+-v /etc/localtime:/etc/localtime:ro \
+--link reliable_mongo_prod:mongo \
+--link reliable_redis_prod:redis \
+-p 8080:8080 --env DB_SERVICE=mongo \
+--env DB_PORT=27017 \
+--env DB_NAME=reliable_prod \
+-d reliablemaster_reliable-master make serve env=prod
+```
+
+
+>##### Notice
+Please allow a couple of minutes for the Reliable application to start
+>Point your browser to http://localhost:8080 and ,run again `make adduser env=prod` to set a password for the root user account .if you use default env please use other port what you set.
+
+
+
 ### Make Commands
 
 We use [Makefile](Makefile) to provide some commands to make daily work. See simple introducion by `make help`.
